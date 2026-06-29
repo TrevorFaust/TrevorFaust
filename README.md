@@ -19,7 +19,7 @@ I build full-stack data pipelines and applications — scrapers, scheduled jobs,
 
 ### 🏈 DraftDNA — Fantasy Football Draft Tool
 Custom fantasy rankings, mock drafts, player research, draft grades, and the Pick Six Challenge prediction game.
-- Drag-and-drop big board, 8–16 team mock draft room with CPU opponents, post-draft grading, and live partial-credit prediction scoring
+- Drag-and-drop big board, 4-32 team mock draft room with CPU opponents, post-draft grading, and live partial-credit prediction scoring
 - **Stack:** Vite, React, TypeScript, Tailwind, shadcn/ui, Supabase, TanStack Query
 - **Live site:** [draftdna.com](https://www.draftdna.com)
 
