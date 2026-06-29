@@ -1,92 +1,77 @@
-## Hi there 👋
+# Howdy Y'all 👋
 
-# Hi, I'm Trevor Faust
+## Hi, I'm Trevor Faust
 
-I'm an engineer transitioning into **sports analytics**, focused on building tools and models to better understand **NFL player value, roster construction, and draft strategy**.
-
-My work combines **data engineering, analytics, and football strategy** to build systems that collect, analyze, and visualize NFL data.
+I build full-stack data pipelines and applications — scrapers, scheduled jobs, Supabase-backed apps, and small automation tools that solve real problems (including my own job hunt and apartment search). NFL draft strategy and roster construction are a long-standing professional interest, and **DraftDNA** and **ScoutDNA: All 32** are where I apply that same engineering approach to football data.
 
 ---
 
-## Current Focus
+## What I'm Building
 
-• Building a **NFL Mock Draft Simulator** backed by a custom analytics database  
-• Developing **data pipelines for NFL data collection and analysis**  
-• Exploring **draft value modeling and positional value analysis**  
-• Applying **Python, SQL, and data visualization** to football decision-making  
+- **End-to-end automation pipelines** — scrape/ingest → Supabase storage → scheduled runs (GitHub Actions, Railway cron) → email delivery (Resend)
+- **Data-driven web apps** — Next.js/React + Supabase, including lightweight no-password auth flows
+- **LLM-powered content generation** — Claude API for resume tailoring and structured, cited content composition
+- **NFL draft value & fantasy analytics** — positional value modeling, draft outcome analysis, and roster construction frameworks
 
 ---
 
 ## Featured Projects
 
-### NFL Mock Draft Simulator
-Interactive draft simulator backed by a PostgreSQL database and custom analytics logic.
+### 🏈 DraftDNA — Fantasy Football Draft Tool
+Custom fantasy rankings, mock drafts, player research, draft grades, and the Pick Six Challenge prediction game.
+- Drag-and-drop big board, 8–16 team mock draft room with CPU opponents, post-draft grading, and live partial-credit prediction scoring
+- **Stack:** Vite, React, TypeScript, Tailwind, shadcn/ui, Supabase, TanStack Query
+- **Live site:** [draftdna.com](https://www.draftdna.com)
 
-Features:
-- Player ranking integration
-- Draft simulation logic
-- Personal mock draft analytics 
-- Backend data pipeline
+### 📰 ScoutDNA: All 32 — Daily NFL Digest
+A daily, fantasy-aware digest covering all 32 franchises — Reddit, beat RSS, and podcast/YouTube sources run through a collect → cluster → compose pipeline into a cited, structured issue every morning.
+- League-wide opener plus per-team sections (camp beat, activity, rumor context, fantasy lens), all footnoted back to source
+- **Stack:** Python pipeline, Supabase, Next.js
+- Personal project — pipeline runs on a schedule, review UI is local-only for now
 
----
+### 🔍 Job Hunter
+Personal job search automation — scrapes ~10 niche job boards (RemoteOK, Remotive, We Work Remotely, HN "Who's Hiring," USAJobs, and more) on a schedule, stores listings in Supabase, and emails a digest per hunt profile. Includes a board UI and an LLM-based resume tailoring flow.
+- **Stack:** Node.js, Next.js, Supabase, Playwright, Resend, Claude API
+- Personal project — runs on a schedule, board/preferences UI is local-only for now
 
-### NFL Data Pipeline
-Automated pipeline for collecting, cleaning, and structuring NFL data.
-
-Includes:
-- Web scraping
-- Data cleaning
-- PostgreSQL schema design
-- ETL pipeline architecture
-
----
-
-### NFL Draft Value Analysis
-Exploratory analysis of historical NFL draft outcomes.
-
-Focus areas:
-- Positional value across draft rounds
-- Surplus value of draft picks
-- Hit rates by position and draft slot
+### 🏠 Apartment Search
+Daily apartment-listing scraper (Craigslist, Apartments.com, SeattleRentals) with dedupe-aware Supabase storage, a "new listings" email digest, and a small web app for browsing, filtering, and favoriting.
+- **Stack:** Node.js, TypeScript, Playwright, Next.js, Supabase, Resend
+- Personal project — runs on a schedule, browsing/favoriting UI is local-only for now
 
 ---
 
-## Technical Skills
+## Tech Stack
 
-**Languages**
-- Python
-- SQL
+**Languages:** TypeScript / JavaScript (Node.js), Python, SQL
 
-**Data & Analytics**
-- Pandas
-- Jupyter Notebooks
-- Data Visualization
+**Frontend:** React, Next.js, Vite, Tailwind CSS, shadcn/ui
 
-**Data Engineering**
-- PostgreSQL
-- Supabase
-- Web Scraping
-- ETL Pipelines
+**Data & Backend:** Supabase, PostgreSQL
+
+**Automation & Infra:** Playwright (web scraping), GitHub Actions, Railway, Vercel, Resend (email), cron scheduling, Cursor (primary dev/automation workflow)
+
+**AI:** Anthropic Claude API — content generation, resume tailoring, structured/cited drafting
 
 ---
 
-## Interests in Sports Analytics
+## Why NFL Analytics
 
-I'm particularly interested in questions like:
+This is the domain I keep coming back to outside of work:
 
-- How should teams balance **best player available vs positional need**?
-- Which positions generate the most **surplus draft value**?
-- How predictable is player success using **historical data and player traits**?
+- How should teams balance best player available vs. positional need?
+- Which positions generate the most surplus draft value?
+- How predictable is player success using historical data and traits?
 
 ---
 
 ## Goals
 
-Continue building data tools and analytical frameworks that help explain **how teams build winning rosters**.
+Keep shipping automation tools that solve real, personal problems end-to-end — and keep building out the analytical frameworks behind DraftDNA and ScoutDNA that explain how teams actually build winning rosters.
 
 ---
 
 ## Connect With Me
 
-LinkedIn: www.linkedin.com/in/trevor-faust-000t
-Website: www.draftdna.com
+- **LinkedIn:** [linkedin.com/in/trevor-faust-000t](https://www.linkedin.com/in/trevor-faust-000t)
+- **DraftDNA:** [draftdna.com](https://www.draftdna.com)
